@@ -1,0 +1,11 @@
+{
+  "name": "healthylife-backend",
+  "version": "1.0.0",
+  "description": "Backend del aplicativo HealthyLife",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RicardoArsv",
+  "license": "ISC"
+}

@@ -1,0 +1,4 @@
+.env
+/HealthyLife-Backend/node_modules
+/HealthyLife-Frontend/node_modules
+/HealthyLife-Backend/.env
