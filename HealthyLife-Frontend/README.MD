@@ -56,6 +56,9 @@ root/
    npm run dev
    ```
 
+## Usage:
+- En un entorno de **desarrollo** recordar cambiar la URL a localhost en src/utils/getApiUrl.jsx 
+
 ## Scripts
 
 - **`npm run dev`**: Inicia el servidor con vite, para observar los cambios en archivos.
