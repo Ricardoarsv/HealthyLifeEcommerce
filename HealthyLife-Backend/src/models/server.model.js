@@ -5,7 +5,9 @@ const pc = require("picocolors");
 const cors = require("cors");
 
 // Rutas de la API
-// Aqui se anexaran las rutas
+const preferencesRouter = require("../routes/preferences.routes");
+const profileRouter = require("../routes/profile.routes");
+const productsRouter = require("../routes/product.routes");
 
 // utils
 const webUrl = require("../utils/ApiUrl");
@@ -16,6 +18,7 @@ dotenv.config();
 class Server {
   constructor() {
     // Inicialización del servidor
+    this.port = process.env.PORT;
     this.app = express();
 
     // Routes
@@ -25,6 +28,9 @@ class Server {
     this.middlewares();
 
     // Routes
+    this.preferencesRoutePath = "/api/preferences";
+    this.productsRoutePath = "/api/products";
+    this.profilesRoutePath = "/api/profiles";
     this.routes();
   }
 
@@ -39,7 +45,11 @@ class Server {
     this.app.use(express.static("public"));
   }
 
-  routes() {}
+  routes() {
+    this.app.use(this.preferencesRoutePath, preferencesRouter);
+    this.app.use(this.productsRoutePath, productsRouter);
+    this.app.use(this.profilesRoutePath, profileRouter);
+  }
 
   listen() {
     this.app.listen(this.port, () => {
