@@ -1,4 +1,4 @@
-const Product = require("../models/product.models");
+const Product = require("../models/product.model");
 
 const processPreferences = async (userPreferences) => {
   const Products = new Product();

@@ -3,7 +3,7 @@
     "user_id": "1",
     "preferences": {
       "macronutrient": "Protein",
-      "gluten_free": false
+      "gluten_free": true
     }
   },
   {
@@ -16,7 +16,7 @@
   {
     "user_id": "3",
     "preferences": {
-      "macronutrient": "Protein",
+      "macronutrient": "Fat",
       "gluten_free": true
     }
   },
@@ -31,14 +31,14 @@
     "user_id": "5",
     "preferences": {
       "macronutrient": "Protein",
-      "gluten_free": true
+      "gluten_free": false
     }
   },
   {
     "user_id": "6",
     "preferences": {
-      "macronutrient": "Fat",
-      "gluten_free": true
+      "macronutrient": "Carbs",
+      "gluten_free": false
     }
   },
   {

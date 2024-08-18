@@ -18,7 +18,7 @@ dotenv.config();
 class Server {
   constructor() {
     // Inicialización del servidor
-    this.port = process.env.PORT;
+    // this.port = process.env.PORT; // activar para modo desarrollo (Desactivado para alojarlo en Railway)
     this.app = express();
 
     // Routes
@@ -55,7 +55,7 @@ class Server {
     this.app.listen(this.port, () => {
       console.log(
         pc.dim("--------------------------------------------------"),
-        pc.blue("\n HealthyLife Backend app listening on localhost"),
+        pc.blue("\n HealthyLife Backend app listening"),
         pc.green("Press Ctrl+C to quit \n"),
         pc.dim("--------------------------------------------------")
       );
