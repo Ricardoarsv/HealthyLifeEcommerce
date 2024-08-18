@@ -1,3 +1,3 @@
-const apiUrl = 'http://localhost:3000/api';
+const apiUrl = 'https://healthylifeecommerce-production.up.railway.app/api';
 
 export default apiUrl;

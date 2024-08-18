@@ -22,7 +22,7 @@ class Server {
     this.app = express();
 
     // Routes
-    this.whiteList = [`${webUrl}`];
+    this.whiteList = [`${webUrl}`, "https://healthylife.rickdev.tech"];
 
     // Middlewares
     this.middlewares();
