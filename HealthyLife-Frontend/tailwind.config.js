@@ -3,6 +3,9 @@ module.exports = {
   content: ['./src/**/*.{html,js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        custom: ['AdventureFont', 'sans-serif'],
+      },
       colors: {
         primary: '#2dc653',
         secondary: '#208b3a',

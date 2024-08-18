@@ -1,0 +1,262 @@
+[
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Chicken Breast",
+    "macronutrients": {
+      "proteins": 9,
+      "fats": 1,
+      "carbohydrates": 0,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Brown Rice",
+    "macronutrients": {
+      "proteins": 2,
+      "fats": 1,
+      "carbohydrates": 8,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Quinoa",
+    "macronutrients": {
+      "proteins": 4,
+      "fats": 2,
+      "carbohydrates": 7,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Almonds",
+    "macronutrients": {
+      "proteins": 6,
+      "fats": 8,
+      "carbohydrates": 2,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Salmon",
+    "macronutrients": {
+      "proteins": 9,
+      "fats": 7,
+      "carbohydrates": 0,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Eggs",
+    "macronutrients": {
+      "proteins": 7,
+      "fats": 6,
+      "carbohydrates": 1,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Lentils",
+    "macronutrients": {
+      "proteins": 6,
+      "fats": 1,
+      "carbohydrates": 8,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Greek Yogurt",
+    "macronutrients": {
+      "proteins": 5,
+      "fats": 4,
+      "carbohydrates": 3,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Chickpeas",
+    "macronutrients": {
+      "proteins": 5,
+      "fats": 2,
+      "carbohydrates": 7,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Spinach",
+    "macronutrients": {
+      "proteins": 2,
+      "fats": 0,
+      "carbohydrates": 1,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Sweet Potatoes",
+    "macronutrients": {
+      "proteins": 2,
+      "fats": 0,
+      "carbohydrates": 9,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Tofu",
+    "macronutrients": {
+      "proteins": 7,
+      "fats": 5,
+      "carbohydrates": 2,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Cottage Cheese",
+    "macronutrients": {
+      "proteins": 8,
+      "fats": 4,
+      "carbohydrates": 2,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Peanut Butter",
+    "macronutrients": {
+      "proteins": 5,
+      "fats": 8,
+      "carbohydrates": 2,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Broccoli",
+    "macronutrients": {
+      "proteins": 3,
+      "fats": 1,
+      "carbohydrates": 3,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Zucchini",
+    "macronutrients": {
+      "proteins": 2,
+      "fats": 0,
+      "carbohydrates": 3,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Cauliflower",
+    "macronutrients": {
+      "proteins": 2,
+      "fats": 1,
+      "carbohydrates": 3,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Rice Cakes",
+    "macronutrients": {
+      "proteins": 1,
+      "fats": 1,
+      "carbohydrates": 8,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Pumpkin Seeds",
+    "macronutrients": {
+      "proteins": 6,
+      "fats": 8,
+      "carbohydrates": 2,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Hemp Seeds",
+    "macronutrients": {
+      "proteins": 7,
+      "fats": 7,
+      "carbohydrates": 2,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Chia Seeds",
+    "macronutrients": {
+      "proteins": 4,
+      "fats": 7,
+      "carbohydrates": 4,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Coconut Milk",
+    "macronutrients": {
+      "proteins": 1,
+      "fats": 8,
+      "carbohydrates": 1,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Avocado",
+    "macronutrients": {
+      "proteins": 2,
+      "fats": 8,
+      "carbohydrates": 2,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Berries",
+    "macronutrients": {
+      "proteins": 1,
+      "fats": 0,
+      "carbohydrates": 7,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Apple",
+    "macronutrients": {
+      "proteins": 0,
+      "fats": 0,
+      "carbohydrates": 9,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://via.placeholder.com/700",
+    "name": "Banana",
+    "macronutrients": {
+      "proteins": 1,
+      "fats": 0,
+      "carbohydrates": 9,
+      "gluten": "no"
+    }
+  }
+]
