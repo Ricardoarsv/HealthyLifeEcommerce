@@ -103,6 +103,9 @@ root/
 - **`npm run dev`**: En backend Inicia el servidor con nodemon, para observar los cambios en archivos.
 - **`npm run dev`**: En frontend Inicia el servidor con vite, para observar los cambios en archivos.
 
+## Usage:
+- En un entorno de **desarrollo** recordar cambiar la URL a localhost en src/utils/getApiUrl.jsx en el frontEnd del aplicativo Asi como activar el PORT comentado en el server.model.js
+
 ## Backend Routes:
 
 - **POST preferences**: https:/ApiURl/api/preferences/getRecomendations  
