@@ -4,7 +4,23 @@
   "description": "Backend del aplicativo HealthyLife",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "vercel-build": "echo hello"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "4.19.2",
+    "firebase": "^10.13.0",
+    "openai": "^4.56.0",
+    "picocolors": "^1.0.1"
+  },
+  "eslintConfig": {
+    "extends": "standard"
   },
   "author": "RicardoArsv",
   "license": "ISC"
