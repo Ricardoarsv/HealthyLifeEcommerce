@@ -10,7 +10,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="sticky z-50 flex font-sans flex-row gap-2 justify-center top-0 w-full h-auto p-2 shadow-lg bg-white">
+    <header className="sticky z-50 flex font-sans flex-row gap-2 justify-center top-0 w-full h-auto p-2 shadow-lg bg-brightness">
       {btns.map((btn, index) => (
         <motion.button
           whileHover={{ scale: 1.1, y: -5 }}

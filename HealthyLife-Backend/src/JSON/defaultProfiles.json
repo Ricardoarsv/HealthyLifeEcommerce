@@ -2,91 +2,71 @@
   {
     "user_id": "1",
     "preferences": {
-      "high_protein": true,
-      "gluten_free": false,
-      "high_fat": true,
-      "high_carbohydrates": true
+      "macronutrient": "Protein",
+      "gluten_free": false
     }
   },
   {
     "user_id": "2",
     "preferences": {
-      "high_protein": false,
-      "gluten_free": true,
-      "high_fat": false,
-      "high_carbohydrates": true
+      "macronutrient": "Carbs",
+      "gluten_free": true
     }
   },
   {
     "user_id": "3",
     "preferences": {
-      "high_protein": true,
-      "gluten_free": true,
-      "high_fat": false,
-      "high_carbohydrates": true
+      "macronutrient": "Protein",
+      "gluten_free": true
     }
   },
   {
     "user_id": "4",
     "preferences": {
-      "high_protein": false,
-      "gluten_free": false,
-      "high_fat": true,
-      "high_carbohydrates": true
+      "macronutrient": "Fat",
+      "gluten_free": false
     }
   },
   {
     "user_id": "5",
     "preferences": {
-      "high_protein": true,
-      "gluten_free": true,
-      "high_fat": true,
-      "high_carbohydrates": true
+      "macronutrient": "Protein",
+      "gluten_free": true
     }
   },
   {
     "user_id": "6",
     "preferences": {
-      "high_protein": false,
-      "gluten_free": true,
-      "high_fat": false,
-      "high_carbohydrates": true
+      "macronutrient": "Fat",
+      "gluten_free": true
     }
   },
   {
     "user_id": "7",
     "preferences": {
-      "high_protein": true,
-      "gluten_free": false,
-      "high_fat": true,
-      "high_carbohydrates": true
+      "macronutrient": "Carbs",
+      "gluten_free": false
     }
   },
   {
     "user_id": "8",
     "preferences": {
-      "high_protein": false,
-      "gluten_free": false,
-      "high_fat": true,
-      "high_carbohydrates": true
+      "macronutrient": "Fat",
+      "gluten_free": false
     }
   },
   {
     "user_id": "9",
     "preferences": {
-      "high_protein": true,
-      "gluten_free": true,
-      "high_fat": false,
-      "high_carbohydrates": true
+      "macronutrient": "Protein",
+      "gluten_free": true
     }
   },
   {
     "user_id": "10",
     "preferences": {
-      "high_protein": false,
-      "gluten_free": false,
-      "high_fat": true,
-      "high_carbohydrates": true
+      "macronutrient": "Carbs",
+      "gluten_free": true
     }
   }
 ]

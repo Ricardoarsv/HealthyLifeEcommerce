@@ -1,254 +1,542 @@
 [
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/3688/food-dinner-lunch-chicken.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Chicken Breast",
     "price": 5.99,
-    "description": "Chicken breast is a lean source of protein, essential for muscle growth and repair. It’s low in fat and carbohydrates, making it ideal for those looking to maintain or build muscle while keeping calorie intake in check.",
+    "description": "Chicken breast is a lean source of protein, essential for muscle growth and repair.",
     "macronutrients": {
-      "proteins": 9,
-      "fats": 1,
-      "carbohydrates": 0,
+      "Protein": 30,
+      "Fat": 2,
+      "Carbs": 0,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://media.post.rvohealth.io/wp-content/uploads/2023/09/brown-rice-header.jpg",
     "name": "Brown Rice",
     "price": 2.49,
-    "description": "Brown rice is a whole grain rich in fiber, which aids digestion and provides long-lasting energy. It’s a healthier alternative to white rice, as it retains more nutrients like magnesium and B vitamins.",
+    "description": "Brown rice is a whole grain rich in fiber and nutrients.",
     "macronutrients": {
-      "proteins": 2,
-      "fats": 1,
-      "carbohydrates": 8,
+      "Protein": 4,
+      "Fat": 1,
+      "Carbs": 50,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/7421203/pexels-photo-7421203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Quinoa",
     "price": 4.99,
-    "description": "Quinoa is a complete protein, containing all nine essential amino acids. It’s also high in fiber, magnesium, and antioxidants, making it a nutritious choice for supporting overall health.",
+    "description": "Quinoa is a complete protein with high fiber content.",
     "macronutrients": {
-      "proteins": 4,
-      "fats": 2,
-      "carbohydrates": 7,
+      "Protein": 9,
+      "Fat": 5,
+      "Carbs": 37,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/1013420/pexels-photo-1013420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Almonds",
     "price": 7.99,
-    "description": "Almonds are rich in healthy fats, protein, and fiber, making them a great snack for satiety and heart health. They also provide a good source of vitamin E, which supports skin health.",
+    "description": "Almonds provide healthy Fat, protein, and fiber.",
     "macronutrients": {
-      "proteins": 6,
-      "fats": 8,
-      "carbohydrates": 2,
+      "Protein": 7,
+      "Fat": 15,
+      "Carbs": 6,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/1409050/pexels-photo-1409050.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Salmon",
     "price": 9.99,
-    "description": "Salmon is packed with omega-3 fatty acids, which are essential for brain health and reducing inflammation. It’s also a high-quality protein source, supporting muscle and tissue repair.",
+    "description": "Salmon is rich in omega-3 fatty acids.",
     "macronutrients": {
-      "proteins": 9,
-      "fats": 7,
-      "carbohydrates": 0,
+      "Protein": 24,
+      "Fat": 14,
+      "Carbs": 0,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Eggs",
     "price": 3.49,
-    "description": "Eggs are a versatile and nutrient-dense food, providing high-quality protein and essential vitamins like B12, D, and choline. They are excellent for muscle repair and overall health.",
+    "description": "Eggs are nutrient-dense and versatile.",
     "macronutrients": {
-      "proteins": 7,
-      "fats": 6,
-      "carbohydrates": 1,
+      "Protein": 6,
+      "Fat": 4,
+      "Carbs": 1,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/13322408/pexels-photo-13322408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Lentils",
     "price": 1.99,
-    "description": "Lentils are a great plant-based protein source and are rich in fiber, helping to regulate blood sugar levels and support digestion. They are also high in iron, which is crucial for oxygen transport in the blood.",
+    "description": "Lentils are a great source of plant-based protein.",
     "macronutrients": {
-      "proteins": 6,
-      "fats": 1,
-      "carbohydrates": 8,
+      "Protein": 8,
+      "Fat": 1,
+      "Carbs": 18,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://th.bing.com/th/id/OSK.HEROPWL6iGVN15I_W0k7ghC8pv6FdmwgswlQdyKJ8nANjJU?rs=1&pid=ImgDetMain",
     "name": "Greek Yogurt",
     "price": 4.49,
-    "description": "Greek yogurt is rich in protein and probiotics, which are beneficial for gut health. It’s also a good source of calcium, supporting bone health and muscle function.",
+    "description": "Greek yogurt is rich in protein and probiotics.",
     "macronutrients": {
-      "proteins": 5,
-      "fats": 4,
-      "carbohydrates": 3,
+      "Protein": 10,
+      "Fat": 5,
+      "Carbs": 3,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/3735181/pexels-photo-3735181.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Chickpeas",
     "price": 2.49,
-    "description": "Chickpeas are an excellent source of plant-based protein and fiber, which can help with digestion and maintaining a healthy weight. They also provide essential minerals like iron and magnesium.",
+    "description": "Chickpeas are a great source of fiber and protein.",
     "macronutrients": {
-      "proteins": 5,
-      "fats": 2,
-      "carbohydrates": 7,
+      "Protein": 7,
+      "Fat": 3,
+      "Carbs": 30,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/2325843/pexels-photo-2325843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Spinach",
     "price": 2.99,
-    "description": "Spinach is a nutrient powerhouse, rich in iron, calcium, and vitamins A and C. It supports bone health, immune function, and eye health while being low in calories.",
+    "description": "Spinach is rich in iron and vitamins.",
     "macronutrients": {
-      "proteins": 2,
-      "fats": 0,
-      "carbohydrates": 1,
+      "Protein": 2,
+      "Fat": 0,
+      "Carbs": 3,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/6060223/pexels-photo-6060223.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Sweet Potatoes",
     "price": 3.29,
-    "description": "Sweet potatoes are rich in complex carbohydrates, fiber, and beta-carotene, which is converted into vitamin A in the body. They support eye health, immune function, and provide long-lasting energy.",
+    "description": "Sweet potatoes are high in fiber and vitamins.",
     "macronutrients": {
-      "proteins": 2,
-      "fats": 0,
-      "carbohydrates": 9,
+      "Protein": 1,
+      "Fat": 0,
+      "Carbs": 25,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/4518586/pexels-photo-4518586.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Tofu",
     "price": 3.99,
-    "description": "Tofu is a versatile plant-based protein that’s rich in iron and calcium. It’s a great option for vegetarians and vegans, supporting muscle health and bone strength.",
+    "description": "Tofu is a versatile plant-based protein.",
     "macronutrients": {
-      "proteins": 7,
-      "fats": 5,
-      "carbohydrates": 2,
+      "Protein": 9,
+      "Fat": 4,
+      "Carbs": 3,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/306801/pexels-photo-306801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Cottage Cheese",
     "price": 3.69,
-    "description": "Cottage cheese is high in protein and low in fat, making it an excellent choice for those looking to build muscle or lose weight. It’s also a good source of calcium, important for bone health.",
+    "description": "Cottage cheese is high in protein and low in fat.",
     "macronutrients": {
-      "proteins": 8,
-      "fats": 4,
-      "carbohydrates": 2,
+      "Protein": 12,
+      "Fat": 3,
+      "Carbs": 4,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/6659904/pexels-photo-6659904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Peanut Butter",
     "price": 3.99,
-    "description": "Peanut butter is rich in healthy fats and protein, making it a satisfying and nutritious snack. It also provides vitamins and minerals like vitamin E and magnesium, supporting heart health.",
+    "description": "Peanut butter is rich in healthy Fat and protein.",
     "macronutrients": {
-      "proteins": 5,
-      "fats": 8,
-      "carbohydrates": 2,
+      "Protein": 8,
+      "Fat": 16,
+      "Carbs": 8,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/3872433/pexels-photo-3872433.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Broccoli",
     "price": 2.49,
-    "description": "Broccoli is packed with vitamins C and K, fiber, and antioxidants. It supports immune function, bone health, and helps protect against chronic diseases due to its high nutrient content.",
+    "description": "Broccoli is packed with vitamins and fiber.",
     "macronutrients": {
-      "proteins": 3,
-      "fats": 1,
-      "carbohydrates": 3,
+      "Protein": 4,
+      "Fat": 1,
+      "Carbs": 6,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/128420/pexels-photo-128420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Zucchini",
     "price": 1.99,
-    "description": "Zucchini is low in calories but high in vitamins A and C, fiber, and antioxidants. It’s a great choice for maintaining a healthy weight and supporting digestive health.",
+    "description": "Zucchini is low in calories but high in nutrients.",
     "macronutrients": {
-      "proteins": 2,
-      "fats": 0,
-      "carbohydrates": 3,
+      "Protein": 2,
+      "Fat": 0,
+      "Carbs": 4,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/4963667/pexels-photo-4963667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Cauliflower",
     "price": 2.29,
-    "description": "Cauliflower is a versatile vegetable rich in fiber and vitamins C and K. It’s low in calories and can be used as a low-carb alternative in many dishes, supporting weight management and overall health.",
+    "description": "Cauliflower is a versatile vegetable.",
     "macronutrients": {
-      "proteins": 2,
-      "fats": 1,
-      "carbohydrates": 3,
+      "Protein": 3,
+      "Fat": 1,
+      "Carbs": 5,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/557659/pexels-photo-557659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Avocado",
     "price": 1.49,
-    "description": "Avocado is rich in healthy monounsaturated fats, fiber, and vitamins C, E, and K. It supports heart health, skin health, and provides lasting satiety.",
+    "description": "Avocado is rich in healthy Fat and fiber.",
     "macronutrients": {
-      "proteins": 2,
-      "fats": 8,
-      "carbohydrates": 3,
+      "Protein": 3,
+      "Fat": 15,
+      "Carbs": 12,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/70862/pexels-photo-70862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Blueberries",
     "price": 4.99,
-    "description": "Blueberries are high in antioxidants, particularly vitamin C and anthocyanins, which support brain health and protect against oxidative stress. They’re also low in calories, making them a great addition to any diet.",
+    "description": "Blueberries are high in antioxidants.",
     "macronutrients": {
-      "proteins": 1,
-      "fats": 0,
-      "carbohydrates": 6,
+      "Protein": 1,
+      "Fat": 0,
+      "Carbs": 15,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
+    "image": "https://images.pexels.com/photos/4725726/pexels-photo-4725726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "name": "Oats",
     "price": 2.49,
-    "description": "Oats are a whole grain rich in fiber, particularly beta-glucan, which helps lower cholesterol levels. They provide long-lasting energy and support digestive health.",
+    "description": "Oats are high in fiber and versatile.",
     "macronutrients": {
-      "proteins": 4,
-      "fats": 2,
-      "carbohydrates": 7,
+      "Protein": 6,
+      "Fat": 3,
+      "Carbs": 30,
+      "gluten": "yes"
+    }
+  },
+  {
+    "image": "https://images.pexels.com/photos/691162/pexels-photo-691162.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Chia Seeds",
+    "price": 3.49,
+    "description": "Chia seeds are high in omega-3 fatty acids.",
+    "macronutrients": {
+      "Protein": 5,
+      "Fat": 9,
+      "Carbs": 12,
       "gluten": "no"
     }
   },
   {
-    "image": "https://via.placeholder.com/700",
-    "name": "Oats",
-    "price": 2.49,
-    "description": "Oats are a whole grain rich in fiber, particularly beta-glucan, which helps lower cholesterol levels. They provide long-lasting energy and support digestive health.",
+    "image": "https://images.pexels.com/photos/14706041/pexels-photo-14706041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Flaxseeds",
+    "price": 2.99,
+    "description": "Flaxseeds are rich in omega-3 and fiber.",
     "macronutrients": {
-      "proteins": 20,
-      "fats": 20,
-      "carbohydrates": 20,
+      "Protein": 6,
+      "Fat": 4,
+      "Carbs": 9,
       "gluten": "no"
+    }
+  },
+  {
+    "image": "https://images.pexels.com/photos/7849287/pexels-photo-7849287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Couscous",
+    "price": 2.49,
+    "description": "Couscous is a quick-cooking grain.",
+    "macronutrients": {
+      "Protein": 6,
+      "Fat": 1,
+      "Carbs": 36,
+      "gluten": "yes"
+    }
+  },
+  {
+    "image": "https://th.bing.com/th/id/OIP.LpMGe4h8Y2y95KSFJ_5FRwHaE8?rs=1&pid=ImgDetMain",
+    "name": "Tuna",
+    "price": 4.99,
+    "description": "Tuna is high in protein and omega-3s.",
+    "macronutrients": {
+      "Protein": 28,
+      "Fat": 1,
+      "Carbs": 0,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://images.pexels.com/photos/47306/pasta-spaghetti-noodle-pasta-nests-47306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Pasta",
+    "price": 1.99,
+    "description": "Pasta is a staple food made from wheat.",
+    "macronutrients": {
+      "Protein": 7,
+      "Fat": 1,
+      "Carbs": 42,
+      "gluten": "yes"
+    }
+  },
+  {
+    "image": "https://th.bing.com/th/id/OIP.gVuIWmljTAWTSXYG3yqtmwHaE8?rs=1&pid=ImgDetMain",
+    "name": "Pork Tenderloin",
+    "price": 6.99,
+    "description": "Pork tenderloin is a lean cut of meat.",
+    "macronutrients": {
+      "Protein": 22,
+      "Fat": 4,
+      "Carbs": 0,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://images.pexels.com/photos/129465/pexels-photo-129465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Mushrooms",
+    "price": 1.99,
+    "description": "Mushrooms are low in calories and rich in nutrients.",
+    "macronutrients": {
+      "Protein": 3,
+      "Fat": 0,
+      "Carbs": 4,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://images.pexels.com/photos/1843385/pexels-photo-1843385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Bell Peppers",
+    "price": 1.49,
+    "description": "Bell peppers are colorful and full of vitamins.",
+    "macronutrients": {
+      "Protein": 1,
+      "Fat": 0,
+      "Carbs": 6,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://images.pexels.com/photos/65174/pexels-photo-65174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Carrots",
+    "price": 1.29,
+    "description": "Carrots are crunchy and high in beta-carotene.",
+    "macronutrients": {
+      "Protein": 1,
+      "Fat": 0,
+      "Carbs": 9,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://images.pexels.com/photos/3358735/pexels-photo-3358735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Walnuts",
+    "price": 8.99,
+    "description": "Walnuts are rich in omega-3 fatty acids.",
+    "macronutrients": {
+      "Protein": 5,
+      "Fat": 18,
+      "Carbs": 4,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://images.pexels.com/photos/6167328/pexels-photo-6167328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Dark Chocolate",
+    "price": 3.99,
+    "description": "Dark chocolate is high in antioxidants.",
+    "macronutrients": {
+      "Protein": 3,
+      "Fat": 12,
+      "Carbs": 15,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://th.bing.com/th/id/R.e754bf16e456beda073c15154512157c?rik=Cert2D3f%2fnaAjA&pid=ImgRaw&r=0",
+    "name": "Honey",
+    "price": 2.99,
+    "description": "Honey is a natural sweetener.",
+    "macronutrients": {
+      "Protein": 0,
+      "Fat": 0,
+      "Carbs": 17,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://th.bing.com/th/id/OIP.5dnH-5r7YKuZwwYtR5QU4AHaE8?rs=1&pid=ImgDetMain",
+    "name": "Pumpkin Seeds",
+    "price": 4.49,
+    "description": "Pumpkin seeds are high in magnesium and zinc.",
+    "macronutrients": {
+      "Protein": 7,
+      "Fat": 14,
+      "Carbs": 4,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://th.bing.com/th/id/R.1160733a9586fd70572611fe31ddef0e?rik=I6qbXELzAJpwmQ&pid=ImgRaw&r=0",
+    "name": "Edamame",
+    "price": 3.29,
+    "description": "Edamame is a young soybean packed with protein.",
+    "macronutrients": {
+      "Protein": 11,
+      "Fat": 5,
+      "Carbs": 9,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://images.pexels.com/photos/45875/raspberries-berries-fruits-red-45875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Raspberries",
+    "price": 4.49,
+    "description": "Raspberries are high in fiber and antioxidants.",
+    "macronutrients": {
+      "Protein": 1,
+      "Fat": 0,
+      "Carbs": 11,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://healthjade.com/wp-content/uploads/2017/11/Cabbage.jpg",
+    "name": "Cabbage",
+    "price": 1.99,
+    "description": "Cabbage is low in calories and high in nutrients.",
+    "macronutrients": {
+      "Protein": 1,
+      "Fat": 0,
+      "Carbs": 5,
+      "gluten": "no"
+    }
+  },
+  {
+    "image": "https://kj1bcdn.b-cdn.net/media/81142/wheat.jpg?width=1200",
+    "name": "Wheat",
+    "price": 1.49,
+    "description": "Wheat is an excellent source of protein and a staple ingredient in many diets.",
+    "macronutrients": {
+      "Protein": 50,
+      "Fat": 1.5,
+      "Carbs": 71,
+      "gluten": "yes"
+    }
+  },
+  {
+    "image": "https://www.eatingwell.com/thmb/l8nHc8oNF6bRLpaGNeovuwLXOpQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/What-Is-Seitan-and-Is-It-Healthy-2000-f3ef59c17eca4e149e8dcadab67a3a0d.jpg",
+    "name": "Seitan",
+    "price": 3.99,
+    "description": "Seitan is a meat substitute made from wheat gluten, very high in protein.",
+    "macronutrients": {
+      "Protein": 75,
+      "Fat": 2,
+      "Carbs": 15,
+      "gluten": "yes"
+    }
+  },
+  {
+    "image": "https://th.bing.com/th/id/R.422dd4f355126115f138e7819a919c94?rik=k1%2f2N2puAKL33A&pid=ImgRaw&r=0",
+    "name": "Barley",
+    "price": 2.29,
+    "description": "Barley is rich in protein and fiber, used in a variety of dishes.",
+    "macronutrients": {
+      "Protein": 31,
+      "Fat": 1.2,
+      "Carbs": 73,
+      "gluten": "yes"
+    }
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2020/06/28/14/09/dough-5349412_1280.jpg",
+    "name": "Pizza Dough",
+    "price": 4.29,
+    "description": "Pizza dough is rich in fats due to the inclusion of oils and butters, and contains gluten.",
+    "macronutrients": {
+      "Protein": 7,
+      "Fat": 8,
+      "Carbs": 82,
+      "gluten": "yes"
+    }
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2017/04/04/17/31/food-2202344_1280.jpg",
+    "name": "Granola Bars",
+    "price": 3.49,
+    "description": "Granola bars are packed with fats, typically from nuts and seeds, and contain gluten.",
+    "macronutrients": {
+      "Protein": 6,
+      "Fat": 12,
+      "Carbs": 30,
+      "gluten": "yes"
+    }
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2015/10/23/19/50/bread-1003564_960_720.jpg",
+    "name": "Whole Wheat Bread",
+    "price": 2.99,
+    "description": "Whole wheat bread is rich in healthy fats and fiber.",
+    "macronutrients": {
+      "Protein": 9,
+      "Fat": 5,
+      "Carbs": 49,
+      "gluten": "yes"
+    }
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2018/02/25/07/15/food-3179853_1280.jpg",
+    "name": "Butter",
+    "price": 4.99,
+    "description": "Butter is very high in fats and is used in various baking and cooking applications. It contains gluten.",
+    "macronutrients": {
+      "Protein": 1,
+      "Fat": 81,
+      "Carbs": 0,
+      "gluten": "yes"
+    }
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2021/06/30/20/29/cheese-6377658_1280.jpg",
+    "name": "Cheddar Cheese",
+    "price": 5.49,
+    "description": "Cheddar cheese is high in fats and is used in a variety of dishes. It contains gluten.",
+    "macronutrients": {
+      "Protein": 25,
+      "Fat": 33,
+      "Carbs": 1,
+      "gluten": "yes"
+    }
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/04/11/23/23/bacon-1323412_1280.jpg",
+    "name": "Bacon",
+    "price": 7.99,
+    "description": "Bacon is very high in fats and commonly consumed as a protein-rich snack or breakfast item. It contains gluten.",
+    "macronutrients": {
+      "Protein": 12,
+      "Fat": 42,
+      "Carbs": 1,
+      "gluten": "yes"
     }
   }
 ]

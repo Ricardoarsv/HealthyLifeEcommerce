@@ -9,45 +9,37 @@ const processPreferences = async (userPreferences) => {
   }
 
   const { preferences } = userPreferences;
+  const macronutrient = preferences.macronutrient;
+  const gluten_free = preferences.gluten_free;
 
-  const filteredProducts = products.filter((product) => {
-    const { macronutrients } = product;
-    return (
-      (preferences.high_protein ? macronutrients.proteins >= 5 : true) &&
-      (preferences.gluten_free ? macronutrients.gluten === "no" : true) &&
-      (preferences.high_fat ? macronutrients.fats >= 5 : true) &&
-      (preferences.high_carbohydrates
-        ? macronutrients.carbohydrates >= 5
-        : true)
+  if (!["Protein", "Carbs", "Fat"].includes(macronutrient)) {
+    throw new Error("Invalid macronutrient preference provided");
+  }
+
+  // Filtrar productos según las preferencias del usuario
+  let filteredProducts = products.filter(
+    (product) => product.macronutrients[macronutrient] > 0
+  );
+  if (gluten_free) {
+    filteredProducts = filteredProducts.filter(
+      (product) => product.macronutrients.gluten === "no"
     );
-  });
+  }
 
-  const topMatches = filteredProducts.slice(0, 3);
+  // Ordenar productos por contenido del macronutriente en orden descendente
+  filteredProducts.sort(
+    (a, b) => b.macronutrients[macronutrient] - a.macronutrients[macronutrient]
+  );
 
-  const explanations = topMatches.map((product) => {
-    const reasons = [];
-    if (preferences.high_protein && product.macronutrients.proteins >= 5) {
-      reasons.push("high in protein");
-    }
-    if (preferences.gluten_free && product.macronutrients.gluten === "no") {
-      reasons.push("gluten-free");
-    }
-    if (preferences.high_fat && product.macronutrients.fats >= 5) {
-      reasons.push("high in fat");
-    }
-    if (
-      preferences.high_carbohydrates &&
-      product.macronutrients.carbohydrates >= 5
-    ) {
-      reasons.push("high in carbohydrates");
-    }
-    return {
-      product,
-      reasons: reasons.join(", "),
-    };
-  });
+  // Limitar las recomendaciones a tres productos
+  const recommendedProducts = filteredProducts.slice(0, 3).map((product) => ({
+    product: product,
+    reason: `High in ${macronutrient.toLowerCase()}${
+      gluten_free ? " and gluten-free" : ""
+    }`,
+  }));
 
-  return explanations;
+  return recommendedProducts;
 };
 
 module.exports = processPreferences;

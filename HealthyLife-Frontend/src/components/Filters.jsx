@@ -1,15 +1,71 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Select from 'react-select';
-import Profiles from '../../mock/Profiles.json';
+import apiUrl from '../utils/getApiUrl';
+import { motion } from 'framer-motion';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRecycle } from '@fortawesome/free-solid-svg-icons';
 
-const Filters = () => {
+const Filters = ({ handleShowFilteredProducts, handleAlertModal }) => {
+  const [Profiles, setProfiles] = useState([]);
   const [selectedFilters, setSelectedFilters] = useState({
-    grasas: null,
-    proteina: null,
+    macronutrient: null,
     gluten: null,
-    carbohidratos: null,
   });
   const [selectedProfile, setSelectedProfile] = useState('custom');
+
+  useEffect(() => {
+    fetch(`${apiUrl}/profiles/getProfiles`)
+      .then((res) => res.json())
+      .then((data) => {
+        setProfiles(data);
+        console.log(data);
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
+  }, []);
+
+  const handleGetRecomendations = () => {
+    const user = selectedProfile;
+    const mappedPreferences = {
+      gluten_free: selectedFilters.gluten?.value,
+      macronutrient: selectedFilters.macronutrient?.value,
+    };
+    const missingOptions = [];
+    console.log(mappedPreferences);
+
+    if (mappedPreferences.gluten_free === undefined) {
+      missingOptions.push('gluten');
+    }
+    if (mappedPreferences.macronutrient === undefined) {
+      missingOptions.push('macronutrient');
+    }
+
+    if (missingOptions.length > 0) {
+      handleAlertModal(
+        `Please select the following options: ${missingOptions.join(', ')}`
+      );
+      return;
+    }
+
+    fetch(`${apiUrl}/preferences/getRecomendations`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        user_id: user === 'custom' ? 11 : user,
+        preferences: mappedPreferences,
+      }),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        handleShowFilteredProducts(data);
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
+  };
 
   const handleFilterSelection = (filter, option) => {
     setSelectedFilters((prevFilters) => ({
@@ -25,39 +81,29 @@ const Filters = () => {
       const profile = Profiles.find(
         (profile) => profile.user_id === selectedOption.value
       );
-      setSelectedFilters({
-        grasas: profile.preferences.high_fat
-          ? options.grasas[0]
-          : options.grasas[1],
-        proteina: profile.preferences.high_protein
-          ? options.proteina[0]
-          : options.proteina[1],
-        gluten: profile.preferences.gluten_free
-          ? options.gluten[0]
-          : options.gluten[1],
-        carbohidratos: profile.preferences.carbohydrates
-          ? options.carbohidratos[0]
-          : options.carbohidratos[1],
-      });
+
+      if (profile) {
+        setSelectedFilters({
+          macronutrient: options.macronutrient.find(
+            (opt) => opt.value === profile.preferences.macronutrient
+          ),
+          gluten: profile.preferences.gluten_free
+            ? options.gluten[0] // Libre de gluten
+            : options.gluten[1], // Contiene gluten
+        });
+      }
     }
   };
 
   const options = {
-    grasas: [
-      { value: 'alto', label: 'Alto' },
-      { value: 'bajo', label: 'Bajo' },
-    ],
-    proteina: [
-      { value: 'alto', label: 'Alto' },
-      { value: 'bajo', label: 'Bajo' },
+    macronutrient: [
+      { value: 'Protein', label: 'Proteínas' },
+      { value: 'Carbs', label: 'Carbohidratos' },
+      { value: 'Fat', label: 'Grasas' },
     ],
     gluten: [
-      { value: 'libre', label: 'Libre' },
-      { value: 'contiene', label: 'Contiene' },
-    ],
-    carbohidratos: [
-      { value: 'alto', label: 'Alto' },
-      { value: 'bajo', label: 'Bajo' },
+      { value: true, label: 'Libre de gluten' },
+      { value: false, label: 'Contiene gluten' },
     ],
     profiles: Profiles.map((profile, index) => ({
       value: profile.user_id,
@@ -66,7 +112,7 @@ const Filters = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row justify-between mt-10 items-center gap-4 font-sans w-full p-4 rounded-md border-2">
+    <div className="flex flex-col md:flex-row bg-white justify-between mt-10 items-center gap-4 font-sans w-full p-4 rounded-md border-2 shadow-md">
       <div className="flex flex-row gap-2 justify-between items-center">
         <label>Perfiles:</label>
         <Select
@@ -78,29 +124,38 @@ const Filters = () => {
           options={options.profiles}
           placeholder="Selecciona"
         />
-        <button className="bg-primary font-bold text-white rounded-md p-2">
+        <motion.button
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          onClick={handleGetRecomendations}
+          className="bg-primary font-bold text-white rounded-md p-2"
+        >
           Search
-        </button>
+        </motion.button>
+        <FontAwesomeIcon
+          onClick={() => {
+            setSelectedProfile('custom');
+            setSelectedFilters({
+              macronutrient: null,
+              gluten: null,
+            });
+            handleShowFilteredProducts([]);
+          }}
+          className="text-primary cursor-pointer w-8 h-8 hover:text-secondary transition-all duration-300"
+          icon={faRecycle}
+        />
       </div>
 
       <div className="flex flex-col md:flex-row justify-between gap-2">
         <div className="flex flex-row gap-2 justify-between w-full items-center">
-          <label>Grasas:</label>
+          <label>Macronutrientes:</label>
           <Select
             className="w-40"
-            value={selectedFilters.grasas}
-            onChange={(option) => handleFilterSelection('grasas', option)}
-            options={options.grasas}
-            placeholder="Selecciona"
-          />
-        </div>
-        <div className="flex flex-row gap-2 justify-between w-full items-center">
-          <label>Proteína:</label>
-          <Select
-            className="w-40"
-            value={selectedFilters.proteina}
-            onChange={(option) => handleFilterSelection('proteina', option)}
-            options={options.proteina}
+            value={selectedFilters.macronutrient}
+            onChange={(option) =>
+              handleFilterSelection('macronutrient', option)
+            }
+            options={options.macronutrient}
             placeholder="Selecciona"
           />
         </div>
@@ -111,18 +166,6 @@ const Filters = () => {
             value={selectedFilters.gluten}
             onChange={(option) => handleFilterSelection('gluten', option)}
             options={options.gluten}
-            placeholder="Selecciona"
-          />
-        </div>
-        <div className="flex flex-row gap-2 justify-between w-full items-center">
-          <label>Carbohidratos:</label>
-          <Select
-            className="w-40"
-            value={selectedFilters.carbohidratos}
-            onChange={(option) =>
-              handleFilterSelection('carbohidratos', option)
-            }
-            options={options.carbohidratos}
             placeholder="Selecciona"
           />
         </div>
