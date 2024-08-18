@@ -22,7 +22,11 @@ class Server {
     this.app = express();
 
     // Routes
-    this.whiteList = [`${webUrl}`, "https://healthylife.rickdev.tech"];
+    this.whiteList = [
+      `${webUrl}`,
+      "https://healthylife.rickdev.tech",
+      "healthy-life-ecommerce-l3wmls6tt-ricardoarsvs-projects.vercel.app",
+    ];
 
     // Middlewares
     this.middlewares();

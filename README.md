@@ -103,6 +103,21 @@ root/
 - **`npm run dev`**: En backend Inicia el servidor con nodemon, para observar los cambios en archivos.
 - **`npm run dev`**: En frontend Inicia el servidor con vite, para observar los cambios en archivos.
 
+## Backend Routes:
+
+- **POST preferences**: https:/ApiURl/api/preferences/getRecomendations  
+  Recibe un objeto con la siguiente estructura:
+
+```
+{
+  user_id: '5',
+  preferences: { gluten_free: true or false, macronutrient: 'Protein' o 'Fat' o 'Carbs'  }
+}
+```
+
+- **GET products**: https:/ApiURl/api/products/getProducts
+- **GET express**:https:/ApiURl/api/profiles/getProfiles
+
 ## Dependencies
 
 **Backend**
